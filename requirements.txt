@@ -1,0 +1,16 @@
+# Core dependencies for the internship AI agent
+requests>=2.28.0
+python-dotenv>=1.0.0
+scikit-learn>=1.2.2
+PyPDF2>=3.0.0
+
+# Gemini / Google Generative AI SDK (install if you plan to run with_api)
+# pip name: google-generativeai
+google-generativeai>=0.3.0
+
+# Optional (only needed for local abstractive/refinement models)
+transformers>=4.30.0
+spacy>=3.5.0
+
+# Small utilities often useful in these projects
+tqdm>=4.65.0
