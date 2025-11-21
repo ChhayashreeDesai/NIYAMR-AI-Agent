@@ -10,7 +10,6 @@ ROOT = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(ROOT))
 
 from agent.extractor import extract_text_from_pdf
-# CHANGED: Force import from the local 'with_api' folder
 from with_api.agent.summarizer_hybrid import hybrid_summary 
 from with_api.agent import api_client
 from with_api.rule_checks_api import run_checks_with_gemini
@@ -156,5 +155,6 @@ if __name__ == "__main__":
 
     if not args.api_key:
         args.api_key = os.getenv("GEMINI_API_KEY") or os.getenv("GOOGLE_API_KEY")
+
 
     run_with_api_local(args.input, api_key=args.api_key, provider=args.provider, model=args.model)
