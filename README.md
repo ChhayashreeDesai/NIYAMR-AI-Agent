@@ -24,7 +24,7 @@ Structure
 
 Video Walkthrough
 -----------------
-[ ]
+[ https://drive.google.com/file/d/1VzSuLYTXCGiKIrtKL4o7KEYcmCaZ-Da-/view?usp=sharing ]
 
 Key Features
 ------------
